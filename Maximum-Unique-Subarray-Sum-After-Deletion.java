@@ -9,6 +9,6 @@ class Solution {
         .stream()
         .filter(num -> num > 0)
         .mapToInt(Integer::intValue)
-        .sum();
+        .sum()
   }
 }
