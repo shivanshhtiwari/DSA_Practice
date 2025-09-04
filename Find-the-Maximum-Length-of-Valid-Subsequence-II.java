@@ -10,6 +10,6 @@ class Solution {
                 maxLength = Math.max(maxLength, subarrayLengths[modValue][requiredMod]);
             }
         }
-        return maxLength;  
+        return maxLength
     }
 }
